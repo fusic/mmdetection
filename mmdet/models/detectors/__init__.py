@@ -34,6 +34,7 @@ from .rpn import RPN
 from .scnet import SCNet
 from .single_stage import SingleStageDetector
 from .solo import SOLO
+from .parcnet import ParCNet
 from .solov2 import SOLOv2
 from .sparse_rcnn import SparseRCNN
 from .tood import TOOD
@@ -54,5 +55,5 @@ __all__ = [
     'VFNet', 'DETR', 'TridentFasterRCNN', 'SparseRCNN', 'SCNet', 'SOLO',
     'SOLOv2', 'DeformableDETR', 'AutoAssign', 'YOLOF', 'CenterNet', 'YOLOX',
     'TwoStagePanopticSegmentor', 'PanopticFPN', 'QueryInst', 'LAD', 'TOOD',
-    'MaskFormer', 'DDOD', 'Mask2Former'
+    'MaskFormer', 'DDOD', 'Mask2Former', 'ParCNet'
 ]
